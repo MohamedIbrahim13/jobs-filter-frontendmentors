@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./build/styles.css" />
+    <title>Frontend Mentor | Job Listings</title>
+  </head>
+  <body>
+    <header class="md:h-[12vh] h-[18vh] w-full md:mb-14 mb-20"></header>
+
+    <div
+      class="
+        md:w-9/12
+        w-11/12
+        absolute
+        md:top-[5vh]
+        top-[12.5vh]
+        md:p-10
+        p-5
+        h-[12.5vh]
+        bg-white
+        md:left-[12.5%]
+        left-[4.1666666666666667%]
+        hidden
+        filter-container
+        flex
+        justify-between
+        items-center
+        rounded-lg
+      "
+    >
+      <div class="categories flex flex-wrap items-center w-3/4 text-left"></div>
+      <button
+        class="clear-all text-[color:var(--desaturated-dark-cyan)]"
+        onclick="clearAll()"
+      >
+        Clear
+      </button>
+    </div>
+
+    <div class="md:w-9/12 w-11/12 mx-auto job-card"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
